@@ -1,8 +1,10 @@
 import Image from 'next/image';
 
 import styles from './index.module.css';
+// コンポ化
 import Category from '../Category';
 import Date from '../Date';
+//
 import { News } from '@/app/_libs/microcms';
 
 type Props = {

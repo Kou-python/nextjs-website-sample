@@ -57,6 +57,7 @@ export default function Home() {
           height={1200}
         />
       </section>
+      {/* ----------------------------------------------- */}
       <section className={styles.news}>
         <h2 className={styles.newsTitle}>News</h2>
         <NewsList news={sliceData} />
