@@ -8,10 +8,16 @@ export default function Header() {
 			<Link href="/" className={styles.logoLink}>
 				<Image alt="" src="/logo.svg" className={styles.logo} width={348} height={133} priority />
 			</Link>
-			<nav>
+			<nav className={styles.nav}>
 				<ul className={styles.items}>
+					<li>
+						<Link href="/news">ニュース</Link>
+					</li>
 					<li className={styles.item}>
 						<Link href="members">メンバー</Link>
+					</li>
+					<li className={styles.item}>
+						<Link href="contact">お問い合わせ</Link>
 					</li>
 				</ul>
 			</nav>
